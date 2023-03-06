@@ -1,0 +1,93 @@
+
+ /* another way of giving styling by using the css file only */
+
+
+nav {
+    background-color:blueviolet;
+    color:white;
+   padding:15px;
+    text-align:center;
+}
+
+.container{
+    background-color:#F6F7C1;
+    width:70%;
+    margin:auto;
+    min-height:100vh;
+padding:4vmax 8vmax;
+box-sizing:border-box;
+
+}
+
+.container>form{
+    display:flex;
+    flex-direction:column;
+
+}
+
+
+input,textarea,button{
+padding:15px;
+border:1px solid rgba(0,0,0,0.214);
+border-radius:5px;
+margin:10px 0;
+font-size:1.2rem;
+}
+
+button{
+    border:none;
+    cursor:pointer;
+    background-color:black;
+    color:white;
+}
+
+
+.container>h1{
+    text-align:center;
+    margin:30px;
+    font-size:2.5 rem;
+}
+
+
+/* *{
+    border:1px solid red;
+} */
+.task{
+display:flex;
+align-items:center;
+background-color:white;
+padding:20px;
+border-radius:5px;
+margin:20px 0;
+
+}
+.task span{
+    color:#413F42;
+}
+
+.task>div{
+    width:100%;
+}
+.task>button{
+    border-radius:100%;
+    width:30px;
+    height:30px;
+    font-size:1.6rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.task button:hover{
+    background-color:red;
+}
+
+
+
+
+
+
+
+
+
+
